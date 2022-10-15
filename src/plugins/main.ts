@@ -6,9 +6,9 @@ export const MainPlugin = (ctx: PlaygroundElementsContext): Plugin => {
   return {
     name: 'vite-playground-elements:main',
     enforce: 'pre',
-    async configResolved(config) {
+    configResolved(config) {
       ctx.viteConfig = config
-      ctx.options = await resolveOptions(ctx.userOptions)
+      ctx.options = resolveOptions(ctx.userOptions)
     },
   }
 }

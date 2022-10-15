@@ -10,6 +10,7 @@ export const DevPlugin = (ctx: PlaygroundElementsContext): Plugin => {
   return {
     name: 'vite-playground-elements:dev',
     enforce: 'pre',
+    apply: 'serve',
     resolveId(id) {
       if (id.endsWith(playgroundTSSWPath))
         return playgroundVirtualTSSW

@@ -38,6 +38,10 @@ Check out the node type declarations [types.ts](./src/types.ts) to configure the
 Check out the client type declarations [client.d.ts](./client.d.ts) for built-in client support:
 - `virtual:pg-ide`: virtual module to get IDE configuration configured in the plugin
 
+## Warnings
+
+- Don't use private window in Chrome, it will break the service worker
+
 ## TODO
 
 - Add `config (ProjectManifest)` option to `playground-ide` and review if we need to remove any options (modified for example)

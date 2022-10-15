@@ -16,10 +16,7 @@ export function resolveOptions(options: PlaygroundElementsOptions): ResolvedPlay
     noCompletions: false,
   }
 
-  const ide = {
-    ...defaults,
-    ...userIde,
-  }
+  const ide: PlaygroundElementsIde = Object.assign({}, defaults, userIde)
 
   if (!ide.sandboxBaseUrl.endsWith('/'))
     ide.sandboxBaseUrl += '/'
