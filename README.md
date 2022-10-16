@@ -10,6 +10,8 @@ This repo will create a `/sandbox/` context for development and will copy `playg
 
 ## Install (not yet published)
 
+> Requires Vite 3.1+
+
 ```shell
 npm i vite-plugin-playground-elements -D
 
