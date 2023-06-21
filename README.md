@@ -57,4 +57,4 @@ Check out the client type declarations [client.d.ts](./client.d.ts) for built-in
 
 ## License
 
-MIT License © 2022-PRESENT [Joaquín Sánchez](https://github.com/userquin)
+[MIT](./LICENSE) License &copy; 2022-PRESENT [Joaquín Sánchez](https://github.com/userquin)
